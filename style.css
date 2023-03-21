@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    background-color: black;
+}
+
+.mainDiv {
+    background-color: lightblue;
+    height: 500px;
+    border-radius: 20px;
+} 
+
+.container {
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.btn-container {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.result {
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+    height: 80px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    background-color: rgb(158, 212, 219);
+}
+
+#savedPrice {
+    margin: 0 auto;
+    background-color: rgb(186, 241, 247);
+    width: 90px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 30px;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
+.btn1, .btn2 {
+    padding: 7px;
+    border-radius: 10px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid black;
+}
+
+.btn1 {
+    background-color: green;
+    font-weight: bold;
+}
+
+.btn2 {
+    background-color: red;
+    font-weight: bold;
+}
+
+.btn1:active, .btn2:active {
+    transform: scale(0.96);
+}
+  
+.btn:focus {
+    outline: 0;
+}
+
+
